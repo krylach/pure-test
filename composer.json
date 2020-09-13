@@ -1,0 +1,17 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "philo/laravel-blade": "^3.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\Libs\\": "app/libs",
+            "App\\Controllers\\": "app/controllers"
+        },
+        "files": [
+            "app/init.php",
+            "app/routes.php"
+        ]
+    }
+}
